@@ -1,0 +1,86 @@
+button:focus {
+    outline: none;
+}
+
+.pic {
+    background: url("https://media.istockphoto.com/photos/scandinavian-concept-of-living-room-interior-with-design-sofa-coffee-picture-id1251694108?b=1&k=20&m=1251694108&s=170667a&w=0&h=mJEQKP7RzRc_sAoy2jdZEQAhMmm48esKlNkQ_Dg-x50=") no-repeat center center/cover;
+    width: 60vw;
+    height: 90vh;
+}
+
+.info {
+    display: flex;
+}
+
+.content {
+    width: 40vw;
+    text-align: center;
+    padding: 0px;
+    /* margin-bottom: 50%; */
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ecf0f1;
+}
+
+.content h1 {
+    font-size: 60px;
+    line-height: 1em;
+}
+
+.content p {
+    color: #17252a;
+    font-size: 30px;
+}
+
+.head {
+    max-width: 90vw;
+    line-height: 3em;
+    margin: 10;
+    text-align: left;
+    border-top: 2px solid #3aafa9;
+    /* padding-top: 0px; */
+}
+
+.content button {
+    padding: 20px;
+    color: #fff;
+    background-color: #3aafa9;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.content button:hover {
+    color: #3aafa9;
+    background: transparent;
+    border: 4px solid #3aafa9;
+}
+
+
+/* @media (max-width: 1000px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .content,
+    .pic {
+        width: 100%;
+    }
+}
+
+@media (max-width:400px) {
+    .content h1 {
+        font-size: 35px;
+        line-height: 3rem;
+        margin-bottom: 1rem;
+    }
+    .content p {
+        line-height: 2rem;
+    }
+} */
